@@ -10,7 +10,6 @@
 		7C013DE32C28AA3C0026A11B /* sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C013DE22C28A97F0026A11B /* sound.m4a */; };
 		7C013DE42C2F38AA0026A11B /* LocalizationAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1352D1D2BBC2F7F00104E7B /* LocalizationAttribute.swift */; };
 		7C013DE52C2F41760026A11B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D1AA00CF2AFAC7D200B74629 /* Localizable.xcstrings */; };
-		7C04A6092C446B4D00FBC649 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C04A6082C446B4D00FBC649 /* GoogleService-Info.plist */; };
 		7C1C08AA2C31F2F800569B45 /* PauseTorrentIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C08A92C31F2F000569B45 /* PauseTorrentIntent.swift */; };
 		7C1C08AB2C31F31900569B45 /* PauseTorrentIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C08A92C31F2F000569B45 /* PauseTorrentIntent.swift */; };
 		7C1C08AD2C31FEA400569B45 /* IntentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C08AC2C31FEA000569B45 /* IntentsService.swift */; };
@@ -28,8 +27,6 @@
 		7C4ED0942BE961A20034B62C /* UIModernBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4ED0932BE961A20034B62C /* UIModernBarButtonItem.swift */; };
 		7C4ED0962BE961DF0034B62C /* BaseControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4ED0952BE961DF0034B62C /* BaseControl.swift */; };
 		7C4ED0982BEF8B8E0034B62C /* PatreonCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4ED0972BEF8B8E0034B62C /* PatreonCredentials.swift */; };
-		7C519C882C427E9A00E353A9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7C519C872C427E9A00E353A9 /* FirebaseAnalytics */; };
-		7C519C8C2C427F4C00E353A9 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C519C8B2C427F4C00E353A9 /* FirebaseRemoteConfigSwift */; };
 		7C5FBE0F2BBB227D0069E5A0 /* UISegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FBE0E2BBB227D0069E5A0 /* UISegmentedProgressView.swift */; };
 		7C5FBE192BBC91E70069E5A0 /* NetworkMonitoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FBE182BBC91E70069E5A0 /* NetworkMonitoringService.swift */; };
 		7C5FBE232BBDD1B60069E5A0 /* NSUserDefaultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FBE222BBDD1B60069E5A0 /* NSUserDefaultItem.swift */; };
@@ -76,14 +73,11 @@
 		7CB831252D19754A005F3F42 /* MessageOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB831242D19754A005F3F42 /* MessageOverlayView.xib */; };
 		7CBDBAAD2C31EF0C008C986B /* UserDefaults+AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDBAAC2C31EF0C008C986B /* UserDefaults+AppGroup.swift */; };
 		7CBDBAAE2C31EF52008C986B /* UserDefaults+AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDBAAC2C31EF0C008C986B /* UserDefaults+AppGroup.swift */; };
-		7CC411622BD319AE00CA8B13 /* AppDelegate+RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC411612BD319AE00CA8B13 /* AppDelegate+RemoteConfig.swift */; };
-		7CC411642BD326C300CA8B13 /* AppDelegate+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC411632BD326C300CA8B13 /* AppDelegate+Firebase.swift */; };
 		7CC634772E09ED88007E3EED /* UILabel+Marquee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC634762E09ED83007E3EED /* UILabel+Marquee.swift */; };
 		7CCDB3342ED3469B001E857B /* cacert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 7CCDB3322ED34680001E857B /* cacert.pem */; };
 		7CCDB3372ED5B4B6001E857B /* UIImage+IOSRelatedIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDB3362ED5B4A8001E857B /* UIImage+IOSRelatedIcons.swift */; };
 		7CCDB3392ED5DF56001E857B /* DocumentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDB3382ED5DF55001E857B /* DocumentPickerViewController.swift */; };
 		7CCDB33B2ED5F4B4001E857B /* UIAlertController+PrimaryAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDB33A2ED5F4AC001E857B /* UIAlertController+PrimaryAction.swift */; };
-		7CDC7BBE2C516ADD00B51EFB /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDC7BBD2C516ADD00B51EFB /* FirebaseCrashlytics */; };
 		7CE25BA72C24A848007B2FD7 /* CircularAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE25BA62C24A848007B2FD7 /* CircularAnimation.swift */; };
 		7CF6DA332C0F112B0033D03F /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 7CF6DA322C0F112B0033D03F /* OpenSSL */; };
 		7CF6DA352C0F3DB90033D03F /* BCHostingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6DA342C0F3DB90033D03F /* BCHostingConfiguration.swift */; };
@@ -267,7 +261,6 @@
 
 /* Begin PBXFileReference section */
 		7C013DE22C28A97F0026A11B /* sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.m4a; sourceTree = "<group>"; };
-		7C04A6082C446B4D00FBC649 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C1C08A92C31F2F000569B45 /* PauseTorrentIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseTorrentIntent.swift; sourceTree = "<group>"; };
 		7C1C08AC2C31FEA000569B45 /* IntentsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentsService.swift; sourceTree = "<group>"; };
 		7C32535B2D19402F0069D640 /* CellularToggleSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularToggleSetupViewController.swift; sourceTree = "<group>"; };
@@ -330,8 +323,6 @@
 		7CB831222D197540005F3F42 /* MessageOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOverlayView.swift; sourceTree = "<group>"; };
 		7CB831242D19754A005F3F42 /* MessageOverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageOverlayView.xib; sourceTree = "<group>"; };
 		7CBDBAAC2C31EF0C008C986B /* UserDefaults+AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+AppGroup.swift"; sourceTree = "<group>"; };
-		7CC411612BD319AE00CA8B13 /* AppDelegate+RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RemoteConfig.swift"; sourceTree = "<group>"; };
-		7CC411632BD326C300CA8B13 /* AppDelegate+Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Firebase.swift"; sourceTree = "<group>"; };
 		7CC634762E09ED83007E3EED /* UILabel+Marquee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Marquee.swift"; sourceTree = "<group>"; };
 		7CCDB3322ED34680001E857B /* cacert.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = cacert.pem; sourceTree = "<group>"; };
 		7CCDB3362ED5B4A8001E857B /* UIImage+IOSRelatedIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+IOSRelatedIcons.swift"; sourceTree = "<group>"; };
@@ -501,11 +492,8 @@
 				D1A226F42AEF01B700669D6D /* LibTorrent.framework in Frameworks */,
 				7CF6DA332C0F112B0033D03F /* OpenSSL in Frameworks */,
 				7C4ED08B2BE642A50034B62C /* AppTrackingTransparency.framework in Frameworks */,
-				7C519C882C427E9A00E353A9 /* FirebaseAnalytics in Frameworks */,
 				7CF9C2C72AF7F235009BBFA0 /* MvvmFoundation in Frameworks */,
 				D1DB71832BD80318007F9267 /* GCDWebServers in Frameworks */,
-				7CDC7BBE2C516ADD00B51EFB /* FirebaseCrashlytics in Frameworks */,
-				7C519C8C2C427F4C00E353A9 /* FirebaseRemoteConfigSwift in Frameworks */,
 				D135C58C2AEF158000440680 /* CombineCocoa in Frameworks */,
 				D1ACFDDA2AF7D55F0098FF56 /* MvvmFoundation in Frameworks */,
 			);
@@ -740,7 +728,6 @@
 			children = (
 				7CCDB3322ED34680001E857B /* cacert.pem */,
 				7C609A572C1F1D6400586635 /* Info.plist */,
-				7C04A6082C446B4D00FBC649 /* GoogleService-Info.plist */,
 				7C609A592C1F2A2700586635 /* iTorrent.xcconfig */,
 				D1AA00CF2AFAC7D200B74629 /* Localizable.xcstrings */,
 				7CF6DA362C0F6D150033D03F /* InfoPlist.xcstrings */,
@@ -998,10 +985,8 @@
 			isa = PBXGroup;
 			children = (
 				D1A2269D2AEEEFCC00669D6D /* AppDelegate.swift */,
-				7CC411632BD326C300CA8B13 /* AppDelegate+Firebase.swift */,
 				D1352D3E2BBD81C000104E7B /* AppDelegate+Notifications.swift */,
 				7CFEBEAC2BC88F4C0013233F /* AppDelegate+BackgroundRefresh.swift */,
-				7CC411612BD319AE00CA8B13 /* AppDelegate+RemoteConfig.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -1493,7 +1478,6 @@
 				D1A226982AEEEFCC00669D6D /* Resources */,
 				D1A226D72AEEF73600669D6D /* Embed Frameworks */,
 				7C5FBE522BC0ADCC0069E5A0 /* Embed Foundation Extensions */,
-				7CC4115E2BD2E1D000CA8B13 /* Firebase upload dSYMs */,
 			);
 			buildRules = (
 			);
@@ -1509,9 +1493,6 @@
 				7CAD30182BC3455800592990 /* SWXMLHash */,
 				D1DB71822BD80318007F9267 /* GCDWebServers */,
 				7CF6DA322C0F112B0033D03F /* OpenSSL */,
-				7C519C872C427E9A00E353A9 /* FirebaseAnalytics */,
-				7C519C8B2C427F4C00E353A9 /* FirebaseRemoteConfigSwift */,
-				7CDC7BBD2C516ADD00B51EFB /* FirebaseCrashlytics */,
 			);
 			productName = iTorrent;
 			productReference = D1A2269A2AEEEFCC00669D6D /* iTorrent.app */;
@@ -1555,7 +1536,6 @@
 				D1DB71812BD80318007F9267 /* XCLocalSwiftPackageReference "Submodules/GCDWebServer" */,
 				7CF6DA312C0F112A0033D03F /* XCRemoteSwiftPackageReference "OpenSSL" */,
 				7C3142CE2C317E6400397E82 /* XCRemoteSwiftPackageReference "MarqueeText" */,
-				7C519C862C427E9A00E353A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = D1A2269B2AEEEFCC00669D6D /* Products */;
 			projectDirPath = "";
@@ -1597,7 +1577,6 @@
 				7C5FBE2E2BBF3FF80069E5A0 /* PRSwitchView.xib in Resources */,
 				D1AA00D02AFAC7D200B74629 /* Localizable.xcstrings in Resources */,
 				D1ACFDC72AF6DB9F0098FF56 /* TorrentFilesFileListCell.xib in Resources */,
-				7C04A6092C446B4D00FBC649 /* GoogleService-Info.plist in Resources */,
 				D1B1BECA2AFE25AE0030C2A4 /* TorrentTrackersViewController.xib in Resources */,
 				7CF6DA372C0F6D150033D03F /* InfoPlist.xcstrings in Resources */,
 				D1DB71922BD92238007F9267 /* PatreonPreferencesViewController.xib in Resources */,
@@ -1610,32 +1589,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7CC4115E2BD2E1D000CA8B13 /* Firebase upload dSYMs */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
-				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
-				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
-			);
-			name = "Firebase upload dSYMs";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C5FBE372BC0ADC90069E5A0 /* Sources */ = {
@@ -1777,7 +1730,6 @@
 				7C4CF2FC2BDE78F50078FEA1 /* AdView+Unity.swift in Sources */,
 				D1A227012AEF05A600669D6D /* TorrentListViewModel.swift in Sources */,
 				D1A227092AEF0B6A00669D6D /* TorrentListItemViewModel.swift in Sources */,
-				7CC411642BD326C300CA8B13 /* AppDelegate+Firebase.swift in Sources */,
 				7CFEBEAB2BC725E10013233F /* UIViewController+BottomSheet.swift in Sources */,
 				D1B99D932BEE631B00F51514 /* Benefit.swift in Sources */,
 				D11BE5462AFB904600780C1B /* PRSwitchViewModel.swift in Sources */,
@@ -1793,7 +1745,6 @@
 				D1707C342AF297C500F1752A /* BaseSplitViewController.swift in Sources */,
 				7C5FBE192BBC91E70069E5A0 /* NetworkMonitoringService.swift in Sources */,
 				D1A226FF2AEF056A00669D6D /* BaseViewModel.swift in Sources */,
-				7CC411622BD319AE00CA8B13 /* AppDelegate+RemoteConfig.swift in Sources */,
 				7CFEBE7F2BC431980013233F /* RssChannelViewModel.swift in Sources */,
 				D1B1BED02AFE2D760030C2A4 /* TrackerCellView.swift in Sources */,
 				D135C5952AEFB67000440680 /* BaseNavigationController.swift in Sources */,
@@ -1868,7 +1819,7 @@
 				CODE_SIGN_ENTITLEMENTS = ProgressWidget/ProgressWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = FU4YK33ZPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProgressWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProgressWidget;
@@ -1879,7 +1830,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID).ProgressWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xitrix.iTorrent2.ProgressWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1980,9 +1931,10 @@
 				CODE_SIGN_ENTITLEMENTS = iTorrent/Core/Assets/iTorrent.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = FU4YK33ZPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTorrent/Core/Assets/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2018,7 +1970,7 @@
 				CODE_SIGN_ENTITLEMENTS = ProgressWidget/ProgressWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = FU4YK33ZPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProgressWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProgressWidget;
@@ -2029,7 +1981,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID).ProgressWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xitrix.iTorrent2.ProgressWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2124,13 +2076,11 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = iTorrent/Core/Assets/iTorrent.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D59DHVRS87;
-				"DEVELOPMENT_TEAM[sdk=xros*]" = D59DHVRS87;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU4YK33ZPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTorrent/Core/Assets/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2148,8 +2098,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iTorrent Prod";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=xros*]" = "iTorrent2 Distrib";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -2167,10 +2115,8 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = ProgressWidget/ProgressWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D59DHVRS87;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU4YK33ZPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProgressWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProgressWidget;
@@ -2181,10 +2127,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID).ProgressWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xitrix.iTorrent2.ProgressWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iTorrent Widget Prod";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$inherited XCODE16";
@@ -2283,9 +2228,10 @@
 				CODE_SIGN_ENTITLEMENTS = iTorrent/Core/Assets/iTorrent.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = FU4YK33ZPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTorrent/Core/Assets/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2368,14 +2314,6 @@
 				kind = branch;
 			};
 		};
-		7C519C862C427E9A00E353A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.29.0;
-			};
-		};
 		7CAD30172BC3455800592990 /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/drmohundro/SWXMLHash.git";
@@ -2408,25 +2346,10 @@
 			package = 7C3142CE2C317E6400397E82 /* XCRemoteSwiftPackageReference "MarqueeText" */;
 			productName = MarqueeText;
 		};
-		7C519C872C427E9A00E353A9 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7C519C862C427E9A00E353A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		7C519C8B2C427F4C00E353A9 /* FirebaseRemoteConfigSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7C519C862C427E9A00E353A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfigSwift;
-		};
 		7CAD30182BC3455800592990 /* SWXMLHash */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7CAD30172BC3455800592990 /* XCRemoteSwiftPackageReference "SWXMLHash" */;
 			productName = SWXMLHash;
-		};
-		7CDC7BBD2C516ADD00B51EFB /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7C519C862C427E9A00E353A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
 		};
 		7CF6DA322C0F112B0033D03F /* OpenSSL */ = {
 			isa = XCSwiftPackageProductDependency;
