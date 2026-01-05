@@ -3547,6 +3547,7 @@
       }
     },
     "expire.exit" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3593,6 +3594,7 @@
       }
     },
     "expire.message" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3639,6 +3641,7 @@
       }
     },
     "expire.title" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3685,6 +3688,7 @@
       }
     },
     "expire.update" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
