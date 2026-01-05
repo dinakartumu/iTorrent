@@ -3,3 +3,5 @@ xcuserdata
 iTorrent/Core/Assets/GoogleService-Info.plist
 GenerateAltStoreJson
 AltStoreSource.json
+Pods/
+Podfile.lock
